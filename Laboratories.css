@@ -1,0 +1,76 @@
+.banner {
+    display: inline;
+    
+
+}
+
+#lab {
+    width: 503px;
+    height: 300px;
+}
+
+#classroom {
+    width: 503px;
+    height: 300px;
+
+}
+
+#basket {
+    width: 503px;
+    height: 300px;
+
+}.centered {
+    /* color: rgb(189, 187, 194);
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 31%;
+
+    font-family:
+    font-stretch: extra-expanded; */
+
+    text-align:center;
+    font-size: 40px; 
+    position: absolute;   
+    top: 28%;
+    left: 25%;
+    color: rgb(236, 240, 229);
+}
+.para{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(92, 82, 82);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+hr{
+    width: 55px;
+    border-top: 1px solid rgb(251, 188, 28);
+    border-bottom: 1px solid rgb(251, 188, 28);
+}
+.paragraph{
+    text-align: center;
+    font-size: large;
+    
+}
+.textblock{
+    position: absolute;
+    
+    background-color: rgb(217, 217, 217);
+    margin: -370px 725px 0px 124px;
+   padding: 50px 19px;
+   font-size: large;
+
+}
+.image{
+    position: relative;
+}
+
+#tsi{
+
+    display: inline;
+    width: 50%;
+    padding: 20px 0 0 655px;
+}
