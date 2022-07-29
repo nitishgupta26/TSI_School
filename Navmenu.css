@@ -1,94 +1,41 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-h2{
-    text-align: center;
-    background-color: rgb(39, 39, 125);
-    color: white;
-}
-nav {
-    
-   
-    padding-bottom: 12px;
-    height: 40px;
-    background-color: orange;
-    width: 100%;
-    
-    
-}
 
 
-nav ul {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
-   
-    display: flex;
-    
+
+html,body{
+    font-family: 'poppins';
+    font-size: 16px;
 
 }
 
-nav ul li {
-    
-    display: inline-block;
-    position: relative;
-    list-style: none;
-    padding: 0px 10px;
-    
-    
-
+.navbar{
+    background-color: cornsilk;
+    padding-right: 155px;
 }
 
-nav ul li a{
-
-   
-    display: block;
-    text-decoration: none;
-    padding: 10px 15px;
-    color: rgb(126, 50, 15);
-    line-height: 20px;
-    font-size: 19px;
-    
-
+.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+    color: rgb(240, 137, 19);
 }
-nav ul li a i{
-    padding: 6px;
+
+.dropdown-menu{
+    background-color: cornsilk;
+}
+
+.dropdown-item:hover{
+    color:rgb(240, 137, 19); ;
+    background-color: cornsilk;
+}
+
+
+#home:hover{
+    color: rgb(240, 137, 19);
     
 }
 
-nav ul li a:hover {
-    background-color: white;
-
-
+.nav-link:hover{
+    
+    color: rgb(240, 137, 19);
 }
-
-nav ul ul {
-    position: absolute;
-    top: 40px;
-    display: none;
-
-}
-
-nav ul li:hover>ul {
-    background-color:orange;
-    display: block;
-}
-
-nav ul ul li {
-    width: 150px;
-    float: none;
-    display: list-item;
-    position: relative;
-
-
-}
-
-
-
-/* nav li a:visited {
-    color: purple;
-} */
-
-nav li a:active {
-    color:blue;
-}
-
