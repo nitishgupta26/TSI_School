@@ -25,17 +25,18 @@ html,body{
 }
 
 .dropdown-item:hover{
+   
     color:rgb(240, 137, 19); ;
     background-color: cornsilk;
 }
 
 
 #home:hover{
+    
     color: rgb(240, 137, 19);
     
 }
 
 .nav-link:hover{
-    
     color: rgb(240, 137, 19);
 }
